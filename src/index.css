@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+@theme {
+  --height-screen-navbar-player: calc(100vh - 6rem - 6rem);
+  --color-content: #202020;
+}

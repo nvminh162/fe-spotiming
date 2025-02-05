@@ -1,0 +1,22 @@
+.player-music {  
+    background-color: black !important;  
+    height: 6rem;  
+}
+
+.rhap_time, .rhap_current-time {
+    color: white !important;  
+}
+
+//avatar
+@keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .spin-avatar, .spin-name {
+    animation: spin 2s linear infinite;
+  }
